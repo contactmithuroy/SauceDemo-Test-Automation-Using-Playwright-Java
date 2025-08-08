@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-08T23:28:27 GMT+06:00" name="SauceDemo Test Suite" finished-at="2025-08-08T23:29:57 GMT+06:00" duration-ms="90011">
+    <groups>
+    </groups>
+    <test started-at="2025-08-08T23:28:27 GMT+06:00" name="Login Tests" finished-at="2025-08-08T23:29:02 GMT+06:00" duration-ms="34462">
+      <class name="com.saucedemo.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.LoginTest@750e2b97]" started-at="2025-08-08T23:28:27 GMT+06:00" name="setUp" finished-at="2025-08-08T23:28:49 GMT+06:00" duration-ms="21753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogin()[pri:1, instance:com.saucedemo.tests.LoginTest@750e2b97]" started-at="2025-08-08T23:28:49 GMT+06:00" name="testSuccessfulLogin" description="Successful login with valid credentials" finished-at="2025-08-08T23:28:51 GMT+06:00" duration-ms="1834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LoginTest@750e2b97]" started-at="2025-08-08T23:28:51 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:28:52 GMT+06:00" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.LoginTest@750e2b97]" started-at="2025-08-08T23:28:52 GMT+06:00" name="setUp" finished-at="2025-08-08T23:28:54 GMT+06:00" duration-ms="2169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLockedOutUser()[pri:2, instance:com.saucedemo.tests.LoginTest@750e2b97]" started-at="2025-08-08T23:28:54 GMT+06:00" name="testLockedOutUser" description="Error message for locked_out_user" finished-at="2025-08-08T23:28:56 GMT+06:00" duration-ms="1488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LoginTest@750e2b97]" started-at="2025-08-08T23:28:56 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:28:57 GMT+06:00" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.LoginTest@750e2b97]" started-at="2025-08-08T23:28:57 GMT+06:00" name="setUp" finished-at="2025-08-08T23:28:59 GMT+06:00" duration-ms="2200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidCredentials()[pri:3, instance:com.saucedemo.tests.LoginTest@750e2b97]" started-at="2025-08-08T23:28:59 GMT+06:00" name="testInvalidCredentials" description="Error message for invalid credentials" finished-at="2025-08-08T23:29:01 GMT+06:00" duration-ms="1661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.LoginTest@750e2b97]" started-at="2025-08-08T23:29:01 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:02 GMT+06:00" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.LoginTest -->
+    </test> <!-- Login Tests -->
+    <test started-at="2025-08-08T23:29:02 GMT+06:00" name="Inventory Test" finished-at="2025-08-08T23:29:34 GMT+06:00" duration-ms="32083">
+      <class name="com.saucedemo.tests.InventoryTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:02 GMT+06:00" name="setUp" finished-at="2025-08-08T23:29:04 GMT+06:00" duration-ms="2310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInventoryPageHeading()[pri:1, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:04 GMT+06:00" name="testInventoryPageHeading" description="Verify inventory page contains &#039;Swag Labs&#039; heading" finished-at="2025-08-08T23:29:06 GMT+06:00" duration-ms="1741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInventoryPageHeading -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:06 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:07 GMT+06:00" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:07 GMT+06:00" name="setUp" finished-at="2025-08-08T23:29:09 GMT+06:00" duration-ms="2466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCartBadgeDisplay()[pri:2, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:09 GMT+06:00" name="testCartBadgeDisplay" description="Verify cart badge is displayed when item added" finished-at="2025-08-08T23:29:12 GMT+06:00" duration-ms="2597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartBadgeDisplay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:12 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:13 GMT+06:00" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:13 GMT+06:00" name="setUp" finished-at="2025-08-08T23:29:15 GMT+06:00" duration-ms="2533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddItemToCart()[pri:3, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:15 GMT+06:00" name="testAddItemToCart" description="Add item to cart from inventory" finished-at="2025-08-08T23:29:17 GMT+06:00" duration-ms="1817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:17 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:18 GMT+06:00" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:18 GMT+06:00" name="setUp" finished-at="2025-08-08T23:29:20 GMT+06:00" duration-ms="2541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveItemFromInventory()[pri:4, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:20 GMT+06:00" name="testRemoveItemFromInventory" description="Remove item from inventory" finished-at="2025-08-08T23:29:22 GMT+06:00" duration-ms="1946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemFromInventory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:22 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:23 GMT+06:00" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:23 GMT+06:00" name="setUp" finished-at="2025-08-08T23:29:26 GMT+06:00" duration-ms="2400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSortInventory()[pri:5, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:26 GMT+06:00" name="testSortInventory" description="Sort inventory items by Name (Z to A)" finished-at="2025-08-08T23:29:27 GMT+06:00" duration-ms="1742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortInventory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:27 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:28 GMT+06:00" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:28 GMT+06:00" name="setUp" finished-at="2025-08-08T23:29:31 GMT+06:00" duration-ms="2835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMenuButtonExists()[pri:6, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:31 GMT+06:00" name="testMenuButtonExists" description="Verify &#039;Open Menu&#039; button exists" finished-at="2025-08-08T23:29:33 GMT+06:00" duration-ms="1752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuButtonExists -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.InventoryTest@402c4085]" started-at="2025-08-08T23:29:33 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:34 GMT+06:00" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.InventoryTest -->
+    </test> <!-- Inventory Test -->
+    <test started-at="2025-08-08T23:29:34 GMT+06:00" name="Cart Test" finished-at="2025-08-08T23:29:57 GMT+06:00" duration-ms="23366">
+      <class name="com.saucedemo.tests.CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:34 GMT+06:00" name="setUp" finished-at="2025-08-08T23:29:36 GMT+06:00" duration-ms="2540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCheckoutButtonVisible()[pri:1, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:36 GMT+06:00" name="testCheckoutButtonVisible" description="Verify checkout button is visible" finished-at="2025-08-08T23:29:38 GMT+06:00" duration-ms="2036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutButtonVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:38 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:39 GMT+06:00" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:39 GMT+06:00" name="setUp" finished-at="2025-08-08T23:29:42 GMT+06:00" duration-ms="2622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testItemAddedToCart()[pri:2, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:42 GMT+06:00" name="testItemAddedToCart" description="Verify items added to cart" finished-at="2025-08-08T23:29:44 GMT+06:00" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemAddedToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:44 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:45 GMT+06:00" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:45 GMT+06:00" name="setUp" finished-at="2025-08-08T23:29:48 GMT+06:00" duration-ms="2716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRemoveItemFromCart()[pri:3, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:48 GMT+06:00" name="testRemoveItemFromCart" description="Remove item from cart" finished-at="2025-08-08T23:29:50 GMT+06:00" duration-ms="2419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveItemFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:50 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:51 GMT+06:00" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:51 GMT+06:00" name="setUp" finished-at="2025-08-08T23:29:54 GMT+06:00" duration-ms="2553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testContinueShopping()[pri:4, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:54 GMT+06:00" name="testContinueShopping" description="Continue shopping from cart" finished-at="2025-08-08T23:29:56 GMT+06:00" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContinueShopping -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.tests.CartTest@1caa0244]" started-at="2025-08-08T23:29:56 GMT+06:00" name="tearDown" finished-at="2025-08-08T23:29:57 GMT+06:00" duration-ms="997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.saucedemo.tests.CartTest -->
+    </test> <!-- Cart Test -->
+  </suite> <!-- SauceDemo Test Suite -->
+</testng-results>

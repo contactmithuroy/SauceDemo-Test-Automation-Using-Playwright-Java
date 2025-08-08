@@ -1,0 +1,46 @@
+#To create allure report run the command line
+
+1. Clean + Run Tests
+	mvn clean test
+2. Generate Allure Report (create folder target/allure-results/) /(run : target/allure-results/)
+	mvn allure:report
+
+3. Open live report with:
+	mvn allure:serve
+
+One line Code:
+allure generate target/allure-results --clean -o target/allure-report
+allure open target/allure-report
+
+
+#Project POM Structure
+
+com.saucedemo/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── saucedemo/
+│   │   │           ├── pages/
+│   │   │           │   └── LoginPage.java
+│   │   │           │   └── CartPage.java
+│   │   │           │   └── InventoryPage.java
+│   │   │           └── utils/
+│   │   │               └── BrowserFactory.java
+│   │   └── resources/
+│   │       ├── config.properties
+│   │       └── test-data.json
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── saucedemo/
+│                   └── tests/
+│                       ├── BaseTest.java
+│                       └── LoginTest.java
+│                       └── CartTest.java
+├── target/
+│   ├── allure-results/
+│   └── allure-report/
+├── pom.xml
+├── testng.xml
+└── README.md

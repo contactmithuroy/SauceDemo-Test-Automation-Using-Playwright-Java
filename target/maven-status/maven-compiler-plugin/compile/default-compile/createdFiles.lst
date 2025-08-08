@@ -1,0 +1,4 @@
+com\saucedemo\utils\BrowserFactory.class
+com\saucedemo\pages\CartPage.class
+com\saucedemo\pages\LoginPage.class
+com\saucedemo\pages\InventoryPage.class

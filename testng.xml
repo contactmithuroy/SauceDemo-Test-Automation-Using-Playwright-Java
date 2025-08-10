@@ -6,7 +6,7 @@
     <parameter name="browser" value="chromium"/>
     <parameter name="headless" value="false"/>
     
-    <!--  -->
+    <!--   -->
     <test name="Login Tests">
         <classes>
            <class name="com.saucedemo.tests.LoginTest"/>
@@ -23,6 +23,18 @@
     <test name="Cart Test">
         <classes>
            <class name="com.saucedemo.tests.CartTest"/>
+        </classes>
+    </test>
+   
+    <test name="Logout Test">
+        <classes>
+           <class name="com.saucedemo.tests.LogoutTest"/>
+        </classes>
+    </test>
+   
+    <test name="Product Test">
+        <classes>
+           <class name="com.saucedemo.tests.ProductTest"/>
         </classes>
     </test>
 </suite>

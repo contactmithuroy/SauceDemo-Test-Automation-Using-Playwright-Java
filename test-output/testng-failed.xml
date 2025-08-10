@@ -6,15 +6,17 @@
   <listeners>
     <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
   </listeners>
-  <test thread-count="5" name="Inventory Test(failed)">
+  <test thread-count="5" name="Product Test(failed)">
     <classes>
-      <class name="com.saucedemo.tests.InventoryTest">
+      <class name="com.saucedemo.tests.ProductTest">
         <methods>
           <include name="tearDown"/>
+          <include name="testAddToCartFromProductPage"/>
           <include name="setUp"/>
-          <include name="testMenuButtonExists"/>
+          <include name="testProductDetailsDisplay"/>
+          <include name="testBackNavigation"/>
         </methods>
-      </class> <!-- com.saucedemo.tests.InventoryTest -->
+      </class> <!-- com.saucedemo.tests.ProductTest -->
     </classes>
-  </test> <!-- Inventory Test(failed) -->
+  </test> <!-- Product Test(failed) -->
 </suite> <!-- Failed suite [SauceDemo Test Suite] -->

@@ -6,9 +6,7 @@ public class InventoryPage {
     private final Page page;
     
     // Locators
-    private final String addToCartBtn = "button:has-text('Add to cart')";
     private final String cartIcon = ".shopping_cart_link";
-    
     private final String inventoryItems = ".inventory_item";
     private final String itemName = ".inventory_item_name";
     private final String addToCartButton = "button:has-text('Add to cart')";
